@@ -1,0 +1,35 @@
+<html>
+
+<body>
+
+<h1>Colspan and rowspan</h1>
+
+<h3>Cell that spans two columns:</h3>
+<table border="1" cellspacing="5" cellpadding="10">
+<colgroup>
+  <col span="2" bgcolor="blue">
+  <col span=3 bgcolor=pink>
+</colgroup>
+  <tr>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Faculty</th>
+    <th colspan="2">Phone</th>    
+  </tr>
+  <tr>
+    <td>AAA</td>
+    <td>aaa@example.com</td> 
+    <td rowspan=2>CA</td>   
+    <td>0424</td>
+    <td>2200000</td>    
+  </tr>
+<tr>
+    <td>BBB</td>
+    <td>bbb@example.com</td> 
+    <td>0424</td>
+    <td>2200001</td>    
+  </tr>
+</table>
+
+</body>
+</html>
